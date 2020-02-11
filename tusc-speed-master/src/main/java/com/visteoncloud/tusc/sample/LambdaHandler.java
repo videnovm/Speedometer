@@ -146,6 +146,7 @@ public class LambdaHandler implements RequestHandler<APIGatewayProxyRequestEvent
 			
 			response.setStatusCode(400);
 			response.setBody(responseBody.toString());
+			System.out.println("some stuff happened here");
 
 		}
 		
